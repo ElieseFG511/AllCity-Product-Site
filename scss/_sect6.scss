@@ -1,20 +1,23 @@
 .section-6 {
 	display: grid;
 	grid-template-columns: $twelvecol;
-	grid-gap: $ggap;
 	margin: $sect-margins;
 }
 
 .sec6-img1 {
 	grid-column: 1 / span 6;
 	grid-row: 1;
+
+	img {
+		object-fit: cover;
+	}
 }
 
 .newsletter {
 	grid-column: 7 / span 6;
 	grid-row: 1;
 	
-	padding: 2em;
+	padding: 3em;
 
 	display: grid;
 	grid-template-columns: 1fr;

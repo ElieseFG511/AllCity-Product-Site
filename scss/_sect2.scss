@@ -1,7 +1,6 @@
 .section-2 {
 	display: grid;
 	grid-template-columns: $twelvecol;
-	grid-gap: $ggap;
 	margin: $sect-margins;
 }
 
@@ -11,7 +10,7 @@
 	z-index: 1;
 	background-color: $offblack;
 	color: $offwhite;
-	padding: 2em;
+	padding: 3em;
 
 	display: grid;
 	grid-template-columns: 1fr;
@@ -28,11 +27,15 @@
 .two-1 {
 	grid-column: 1 / span 6;
 	grid-row: 1;
-	object-fit: cover;
+	img {
+		object-fit: cover;
+	}
 }
 
 .sec2-img2 {
-	object-fit: cover;
 	grid-column: 7 / span 6;
 	grid-row: 1;
+	img {
+		object-fit: cover;
+	}
 }

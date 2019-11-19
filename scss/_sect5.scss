@@ -1,7 +1,6 @@
 .section-5 {
 	display: grid;
 	grid-template-columns: $twelvecol;
-	grid-gap: $ggap;
 	margin: $sect-margins;
 }
 
@@ -10,10 +9,10 @@
 	grid-row: 1;
 	color: $offwhite;
 	background-color: $offblack;
-	padding: 2em;
+	padding: 3em;
 
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(5, 1fr);
 	width: 100%;
 
 	.centerthis {
@@ -23,10 +22,18 @@
 		justify-self: center;
 		padding: 0;
 	}
+	
+	button {
+		background-color: $offwhite;
+		color: $offblack;
+	}
 }
 
 .sec5-img1 {
 	grid-column: 7 / span 6;
 	grid-row: 1;
-	object-fit: cover;
+	
+	img {
+		object-fit: cover;
+	}
 }

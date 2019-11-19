@@ -1,10 +1,28 @@
 body {
 	background-color: $offwhite;
+	font-family: itc-avant-garde-gothic-pro, sans-serif;
 }
 
-.centerthis {
-	width: 100%;
-	align-self: center;
-	justify-self: center;
-	padding: 0;
+p {
+	font-weight: $book;
+}
+
+h1, h2, h3, h4 {
+	font-weight: $bold;
+}
+
+h1 {
+	font-size: $base-size * 2.16;
+}
+
+h2 {
+	font-size: $base-size * 1.72;
+}
+
+h3 {
+	font-size: $base-size * 1.38;
+}
+
+h4 {
+	font-size: $base-size * 1.2; 
 }
