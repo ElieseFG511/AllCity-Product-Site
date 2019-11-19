@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-columns: $twelvecol;
 	grid-gap: $ggap;
-	margin: $clear-sec-margin;
+	margin: $sect-margins;
 }
 
 .sec6-img1 {
@@ -14,6 +14,19 @@
 	grid-column: 7 / span 6;
 	grid-row: 1;
 	
+	padding: 2em;
+
+	display: grid;
+	grid-template-columns: 1fr;
+	width: 100%;
+
+	.centerthis {
+		width: 100%;
+		align-self: center;
+		justify-self: center;
+		padding: 0;
+	}
+
 	button {
 		background-color: $offblack;
 		color: $offwhite;

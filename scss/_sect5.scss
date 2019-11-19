@@ -8,9 +8,21 @@
 .purchase {
 	grid-column: 1 / span 12;
 	grid-row: 1;
-	padding: $padding-right;
 	color: $offwhite;
 	background-color: $offblack;
+	padding: 2em;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 100%;
+
+	.centerthis {
+		grid-column: 1 / span 2;
+		width: 100%;
+		align-self: center;
+		justify-self: center;
+		padding: 0;
+	}
 }
 
 .sec5-img1 {

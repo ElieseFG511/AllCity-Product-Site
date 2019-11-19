@@ -29,6 +29,17 @@
 
 	background-color: $offblack;
 	color: $offwhite;
-	padding: 1em 1em 1em 18em;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 100%;
+
+	.centerthis {
+		grid-column: 2 / span 3;
+		width: 100%;
+		align-self: center;
+		justify-self: center;
+		padding: 0;
+	}
 }
 

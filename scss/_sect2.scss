@@ -11,15 +11,16 @@
 	z-index: 1;
 	background-color: $offblack;
 	color: $offwhite;
-	padding: .75em;
+	padding: 2em;
 
 	display: grid;
-	grid-template-columns: 1em;
+	grid-template-columns: 1fr;
 	width: 100%;
 
 	.centerthis {
 		width: 100%;
 		align-self: center;
+		justify-self: center;
 		padding: 0;
 	}
 }
