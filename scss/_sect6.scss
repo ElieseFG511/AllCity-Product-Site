@@ -1,0 +1,21 @@
+.section-6 {
+	display: grid;
+	grid-template-columns: $twelvecol;
+	grid-gap: $ggap;
+	margin: $clear-sec-margin;
+}
+
+.sec6-img1 {
+	grid-column: 1 / span 6;
+	grid-row: 1;
+}
+
+.newsletter {
+	grid-column: 7 / span 6;
+	grid-row: 1;
+	
+	button {
+		background-color: $offblack;
+		color: $offwhite;
+	}
+}

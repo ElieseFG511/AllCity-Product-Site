@@ -1,0 +1,20 @@
+.section-5 {
+	display: grid;
+	grid-template-columns: $twelvecol;
+	grid-gap: $ggap;
+	margin: $sect-margins;
+}
+
+.purchase {
+	grid-column: 1 / span 12;
+	grid-row: 1;
+	padding: $padding-right;
+	color: $offwhite;
+	background-color: $offblack;
+}
+
+.sec5-img1 {
+	grid-column: 7 / span 6;
+	grid-row: 1;
+	object-fit: cover;
+}
