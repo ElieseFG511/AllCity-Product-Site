@@ -1,6 +1,8 @@
 .section-5 {
-	display: grid;
-	grid-template-columns: $twelvecol;
+	@media screen and (min-width: 40em) {
+		display: grid;
+		grid-template-columns: $twelvecol;
+	}
 	margin: $sect-margins;
 }
 
@@ -11,16 +13,20 @@
 	background-color: $offblack;
 	padding: 3em;
 
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	width: 100%;
-
-	.centerthis {
-		grid-column: 1 / span 2;
+	@media screen and (min-width: 40em) {
+		grid-column: 1 / span 12;
+		grid-row: 1;
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
 		width: 100%;
-		align-self: center;
-		justify-self: center;
-		padding: 0;
+
+		.centerthis {
+			grid-column: 1 / span 2;
+			width: 100%;
+			align-self: center;
+			justify-self: center;
+			padding: 0;
+		}
 	}
 	
 	button {
@@ -30,9 +36,10 @@
 }
 
 .sec5-img1 {
-	grid-column: 7 / span 6;
-	grid-row: 1;
-	
+	@media screen and (min-width: 40em) {
+		grid-column: 7 / span 6;
+		grid-row: 1;
+	}
 	img {
 		object-fit: cover;
 	}

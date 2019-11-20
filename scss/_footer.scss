@@ -1,21 +1,29 @@
 footer {
+	@media screen and (min-width: 40em) {
 	display: grid;
 	grid-template-columns: $twelvecol;
+	}
 	background-color: $offblack;
 	color: $offwhite;
 	padding: $padding-norm;
 }
 
 .contact {
-	grid-column: 2 / span 4;
+	@media screen and (min-width: 40em) {
+		grid-column: 2 / span 4;
+	}
 }
 
 .socmed {
-	grid-column: 10 / span 4;
+	@media screen and (min-width: 40em) {
+		grid-column: 10 / span 4;
+	}
 }
 
 .contactForm {
-	grid-column: 4 / span 6;
+	@media screen and (min-width: 40em) {
+		grid-column: 4 / span 6;
+	}
 	label {
 		color: $offwhite !important;
 	}
