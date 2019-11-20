@@ -32,9 +32,12 @@
 .sec3-img1 {
 	display: none;
 	@media screen and (min-width: 40em) {
+		display: block;
+	}
+
+	@media screen and (min-width: 40em) {
 		grid-column: 8 / span 5;
 		grid-row: 1;
-		display: block;
 	}
 	img {
 		object-fit: cover;
